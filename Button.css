@@ -1,0 +1,58 @@
+button {
+position: relative;
+top:0;
+left:0;
+color: black;
+border: 2px solid white;
+border-radius: 10px;
+box-shadow: 3px 3px 3px rgba(24, 85, 76, 0.30)
+outline none;
+}
+
+
+
+button:hover {
+
+    background-color: blue;
+    color: white;
+    animation: stikkAv 100ms;
+    animation-fill-mode: forwards;
+
+
+}
+
+
+button:active {
+
+    transform: translate(3px, 3px)
+}
+
+@keyframes stikkAv {
+
+0% {  top: 0; left: 0; }
+100% { top: 500px; left: 500px;}
+
+}
+
+#innhold div {
+
+    background-color: red;
+    width: 15cm;
+    height: 15cm;
+    position: absolute;
+    left: 150px;
+    bottom: 50px;
+    transition: 2s;
+}
+
+
+#innhold div:hover {
+
+    transform: translate(100px, 100px);
+    background: blue;
+    width: 5cm;
+    height: 5cm;
+    margin: auto auto;
+    transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+    
+}

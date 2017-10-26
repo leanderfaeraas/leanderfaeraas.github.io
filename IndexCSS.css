@@ -1,0 +1,118 @@
+#meny {
+	position: absolute;
+	left: 0;
+	bottom: 15%;
+	width: 20%;
+	height: 70%;
+	background: #A4A4A4;
+}
+
+#meny ul {
+	-webkit-padding-start: 0;
+}
+
+#meny il {
+	display: block;
+}
+
+#meny li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	margin: 8px;
+	text-align: center;
+	padding-top: 10px;
+	height: 2em;
+	background: #F85255;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px gray;
+}
+
+#meny li a:hover {
+	box-shadow: 3px 3px 3px #000000
+}
+
+#meny li a:active {
+	transform: translate(2px, 2px);
+	box-shadow: none;
+}
+
+#meny li a:showing {
+	background: whitesmoke;
+	color: #F85255;
+}
+
+.tittel {
+	/* Uses class . instead of Hashtag# */
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 15%;
+	background: url(../Bilder/html.jpg);
+	background-size: cover;
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-color: #605F5F;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.5em;
+	text-shadow: 3px 3px rgb(0, 0, 0)
+}
+
+#innhold {
+	position: absolute;
+	left: 20%;
+	bottom: 15%;
+	width: 80%;
+	height: 70%;
+	background: #605F5F;
+}
+
+#bunn {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 15%;
+	background: #605F5F
+}
+
+li a:hover {
+	color: #F85255;
+	background: #605F5F;
+	box-shadow: 3px 3px rgba(120, 40, 90, 0.7);
+}
+
+table {
+	border: solid 2px #000000;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	background: #605F5F;
+	padding-left: 5px;
+}
+
+th {
+	background: #F85255;
+}
+
+tr:nth-child(odd) {
+	background: rgba(120, 40, 89, 0.70)
+}
+
+td:nth-child(odd) {
+	background: rgba(49, 165, 165, 0.20);
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #F85255;
+	margin: 1em 0;
+	padding: 0;
+	position: absolute;
+}
